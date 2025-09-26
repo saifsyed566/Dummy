@@ -1,0 +1,57 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f7f4;
+  color: #333;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+/* Header styling */
+h1 {
+  color: #6b4f2c;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 20px;
+}
+
+/* Quran verse styling */
+.quran {
+  font-style: italic;
+  background-color: #fff8e1;
+  padding: 10px 15px;
+  border-left: 4px solid #d4af37;
+  margin-bottom: 20px;
+}
+
+/* Image container styling */
+.image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Image styling */
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
